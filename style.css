@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #100E14;
+}
+
+#header {
+  background: #ffff;
+  padding: 15px 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header--nav a {
+  font-size: 18px;
+  color: #000;
+  font-weight: 400;
+  padding: 0 40px;
+}
+
+.header--nav {
+  display: flex;
+  align-items: center;
+}
+
+.header--btn button {
+  padding: 10px 25px;
+  background: transparent;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+}
+.hero--title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.hero--title h1 {
+  font-weight:400;
+  font-size: 50px;
+  line-height: 73px;
+  color: #FFFFFF;
+  padding-top: 20px;
+}
+.hero--title p {
+  font-weight: 400;
+  font-size: 28px;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 20px 0;
+}
+.hero--title button {
+  padding: 10px 25px;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  background: #FF4343;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.hero--title h6 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  padding-bottom: 50px;
+}
+
+.hero--block {
+  display: flex;
+  justify-content: center;
+}
+.img {
+  position: absolute;
+  right: 190px ;
+}
+.shoot{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 100px;
+}
+.shoot-title h1{
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 50px;
+  letter-spacing: 1.92px;
+  color: #FFFFFF;
+padding-bottom: 20px;
+
+}
+.shoot-title p{
+  width: 320px;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+
+}
+.shoot-img {
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+}
+.shot-img1{
+  position: relative;
+}
+.shot-img2{
+  position: absolute;
+  right: 220px;
+}
